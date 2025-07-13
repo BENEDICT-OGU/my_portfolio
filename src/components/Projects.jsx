@@ -306,6 +306,8 @@ import {
   SkipBack, SkipForward, Sliders, Speaker, Tag, Target, ThumbsUp,
   Trash, TrendingUp, Umbrella, User, Volume, Wind, ZoomIn, ZoomOut
 } from 'lucide-react';
+import Exclusive from "../assets/images/exclusive.png";
+import Chain from "../assets/images/chain.png";
 
 // Project data with categories and tech stacks
 const projectsData = [
@@ -326,8 +328,8 @@ const projectsData = [
     description: "Augmented reality e-commerce experience for mobile",
     category: "mobile",
     tech: ["React Native", "ARKit", "Firebase"],
-    image: "/ar-shopping.jpg",
-    liveUrl: "#",
+    image: Exclusive,
+    liveUrl: "https://exclusivestore-sle3.vercel.app/",
     codeUrl: "#",
     featured: true
   },
@@ -337,8 +339,8 @@ const projectsData = [
     description: "Interactive visualization of blockchain transactions",
     category: "web",
     tech: ["Web3.js", "Ethereum", "GraphQL"],
-    image: "/blockchain-explorer.jpg",
-    liveUrl: "#",
+    image: Chain,
+    liveUrl: "https://chain-sage-omega.vercel.app/",
     codeUrl: "#"
   },
   {
@@ -1289,7 +1291,7 @@ export default function Projects() {
                     href={selectedProject.liveUrl}
                     className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-full font-medium flex items-center gap-2 transition-all"
                   >
-                    Live Demo
+                    view project
                     <ArrowRight className="w-4 h-4" />
                   </a>
                   <a 
