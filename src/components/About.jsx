@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
 import { Code, Database, Cpu, Palette, Smartphone, Server, GitBranch, Cloud, Rocket, CpuIcon } from 'lucide-react'
+import Profile from "../assets/images/image.png"
 
 export default function About() {
   const ref = useRef(null)
@@ -109,7 +110,7 @@ export default function About() {
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-2xl opacity-20 blur-xl"></div>
               <div className="relative overflow-hidden rounded-2xl border-4 border-white dark:border-gray-800 shadow-2xl">
                 <img 
-                  src="/profile.jpg"
+                  src={Profile}
                   alt="Profile" 
                   className="w-full h-auto object-cover"
                 />
