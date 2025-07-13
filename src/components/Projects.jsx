@@ -308,6 +308,7 @@ import {
 } from 'lucide-react';
 import Exclusive from "../assets/images/exclusive.png";
 import Chain from "../assets/images/chain.png";
+import Cosmic from "../assets/images/cosmic.png";
 
 // Project data with categories and tech stacks
 const projectsData = [
@@ -317,10 +318,9 @@ const projectsData = [
     description: "Real-time analytics platform with 3D data visualization",
     category: "web",
     tech: ["React", "Three.js", "D3.js", "Node.js"],
-    image: "/cosmic-dashboard.jpg",
-    liveUrl: "#",
-    codeUrl: "#",
-    featured: true
+    image: Cosmic,
+    liveUrl: "https://cosmic-dashboard-eight.vercel.app/",
+    codeUrl: "https://github.com/BENEDICT-OGU/cosmic-dashboard",
   },
   {
     id: 2,
@@ -330,8 +330,7 @@ const projectsData = [
     tech: ["React Native", "ARKit", "Firebase"],
     image: Exclusive,
     liveUrl: "https://exclusivestore-sle3.vercel.app/",
-    codeUrl: "#",
-    featured: true
+    codeUrl: "https://github.com/BENEDICT-OGU/exclusivestore",
   },
   {
     id: 3,
@@ -341,7 +340,7 @@ const projectsData = [
     tech: ["Web3.js", "Ethereum", "GraphQL"],
     image: Chain,
     liveUrl: "https://chain-sage-omega.vercel.app/",
-    codeUrl: "#"
+    codeUrl: "https://github.com/BENEDICT-OGU/chain-sage"
   },
   {
     id: 4,
@@ -352,7 +351,7 @@ const projectsData = [
     image: "/ai-platform.jpg",
     liveUrl: "#",
     codeUrl: "#",
-    featured: true
+    
   },
   {
     id: 5,
